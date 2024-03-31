@@ -26,7 +26,7 @@ file_names = ["1709.07809.txt",
 
 file_paths = [os.path.join(current_directory, "Data", file_name) for file_name in file_names]
 
-
+ 
 loader = TextLoader(file_paths)
 documents = []
 for file_path in file_paths:
